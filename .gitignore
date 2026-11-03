@@ -1,0 +1,16 @@
+# Folder desain (referensi internal) — tidak di-push
+design template/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Log & artefak build sesi dev di root
+*.log
+.build-log.txt
+_build*.log
+
+#.Util
+.CLAUDE/
+.claude/

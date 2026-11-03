@@ -1,0 +1,72 @@
+/*
+Template Name: SIMORA - Sistem Informasi Akademik
+Basis: Adminto - Responsive Bootstrap 5 Admin Dashboard (Coderthemes)
+File: Entry point SCSS — versi disesuaikan: hanya paket yang ter-install di SIMORA.
+*/
+
+// Core bootstrap (salinan vendor lokal dari template, bypass resolusi node_modules)
+@import "vendor-bootstrap/functions";
+@import "vendor-bootstrap/variables";
+
+// choices.js (rich select dropdown)
+@import "choices.js/public/assets/styles/choices.css";
+
+// Variables & theme mode
+@import "variables";
+@import "variables-dark";
+@import "variables-custom";
+@import "theme-mode";
+
+// Bootstrap utuh
+@import "vendor-bootstrap/bootstrap";
+
+// Struktur layout
+@import "structure/topbar";
+@import "structure/sidenav";
+@import "structure/horizontal";
+@import "structure/layout";
+@import "structure/footer";
+@import "structure/customizer";
+
+// Komponen
+@import "components/utilities";
+@import "components/background";
+@import "components/accordions";
+@import "components/alert";
+@import "components/avatar";
+@import "components/breadcrumb";
+@import "components/buttons";
+@import "components/badge";
+@import "components/card";
+@import "components/dropdown";
+@import "components/forms";
+@import "components/modal";
+@import "components/nav";
+@import "components/pagination";
+@import "components/popover";
+@import "components/print";
+@import "components/progress";
+@import "components/reboot";
+@import "components/ribbons";
+@import "components/switch";
+@import "components/tables";
+@import "components/tooltip";
+@import "components/steps";
+@import "components/preloader";
+@import "components/widgets";
+
+// Halaman
+@import "pages/authentication";
+@import "pages/error";
+@import "pages/faq";
+@import "pages/maintenance";
+@import "pages/timeline";
+
+@import "custom-react";
+
+// Plugins
+@import "plugins/apexcharts";
+@import "plugins/datatable";
+@import "plugins/choice";
+@import "plugins/simplebar";
+@import "plugins/sweetalert2";
